@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0AEDA118FB794A009643E7 /* AKGProjectThreeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDA018FB794A009643E7 /* AKGProjectThreeView.xib */; };
+		5C0AEDE918FB8A65009643E7 /* AKGStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0AEDE418FB8A65009643E7 /* AKGStoryViewController.m */; };
+		5C0AEDEA18FB8A65009643E7 /* AKGStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDE518FB8A65009643E7 /* AKGStoryViewController.xib */; };
+		5C0AEDEE18FB9CF7009643E7 /* AKGStoryOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDED18FB9CF7009643E7 /* AKGStoryOne.xib */; };
+		5C0AEDF018FBA272009643E7 /* AKGStoryTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDEF18FBA272009643E7 /* AKGStoryTwo.xib */; };
+		5C0AEDF218FBA642009643E7 /* AKGStoryThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDF118FBA642009643E7 /* AKGStoryThree.xib */; };
+		5C0AEDF418FBA85D009643E7 /* AKGStoryFour.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDF318FBA85D009643E7 /* AKGStoryFour.xib */; };
+		5C0AEDF618FBB149009643E7 /* AKGContactView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0AEDF518FBB149009643E7 /* AKGContactView.xib */; };
+		5C156FE718F4DF6000642638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FE618F4DF6000642638 /* Foundation.framework */; };
+		5C156FE918F4DF6000642638 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FE818F4DF6000642638 /* CoreGraphics.framework */; };
+		5C156FEB18F4DF6000642638 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FEA18F4DF6000642638 /* UIKit.framework */; };
+		5C156FF118F4DF6000642638 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C156FEF18F4DF6000642638 /* InfoPlist.strings */; };
+		5C156FF318F4DF6000642638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C156FF218F4DF6000642638 /* main.m */; };
+		5C156FF718F4DF6000642638 /* AKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C156FF618F4DF6000642638 /* AKGAppDelegate.m */; };
+		5C156FF918F4DF6000642638 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C156FF818F4DF6000642638 /* Images.xcassets */; };
+		5C15700018F4DF6000642638 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FFF18F4DF6000642638 /* XCTest.framework */; };
+		5C15700118F4DF6000642638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FE618F4DF6000642638 /* Foundation.framework */; };
+		5C15700218F4DF6000642638 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C156FEA18F4DF6000642638 /* UIKit.framework */; };
+		5C15700A18F4DF6000642638 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C15700818F4DF6000642638 /* InfoPlist.strings */; };
+		5C15700C18F4DF6000642638 /* Aaron_GriderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15700B18F4DF6000642638 /* Aaron_GriderTests.m */; };
+		5C15701618F4DF6B00642638 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C15701518F4DF6B00642638 /* MapKit.framework */; };
+		5C15701918F4E00A00642638 /* AKGMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15701818F4E00A00642638 /* AKGMenuViewController.m */; };
+		5C15702218F4ED6B00642638 /* AKGMapPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15702118F4ED6B00642638 /* AKGMapPageView.m */; };
+		5C15702518F4EFB900642638 /* AKGMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15702418F4EFB900642638 /* AKGMapAnnotation.m */; };
+		5C15702818F4F6A600642638 /* AKGFeedPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C15702718F4F6A600642638 /* AKGFeedPageView.m */; };
+		5C26CF3418FB61A300D835AB /* AKGContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C26CF3318FB61A300D835AB /* AKGContactViewController.m */; };
+		5C359EE218F5118D006F80D8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C359EE118F5118D006F80D8 /* Accounts.framework */; };
+		5C359EE418F51197006F80D8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C359EE318F51197006F80D8 /* Social.framework */; };
+		5C391E0C18F5A36D00E16B2F /* AKGProjectsPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C391E0B18F5A36D00E16B2F /* AKGProjectsPageView.m */; };
+		5CD28C5618F8EC8900CDB83A /* AKGFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD28C5418F8EC8900CDB83A /* AKGFeedTableViewController.m */; };
+		5CD28C5718F8EC8900CDB83A /* AKGFeedTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD28C5518F8EC8900CDB83A /* AKGFeedTableViewController.xib */; };
+		5CD28C5A18F8FAD800CDB83A /* AKGStoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD28C5918F8FAD800CDB83A /* AKGStoryPageView.m */; };
+		5CD28C5D18F900CB00CDB83A /* AKGContactPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD28C5C18F900CB00CDB83A /* AKGContactPageView.m */; };
+		5CDCB68518FB2857003B8270 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDCB68418FB2857003B8270 /* MessageUI.framework */; };
+		5CDCB68A18FB3D6D003B8270 /* AKGProjectOneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDCB68918FB3D6D003B8270 /* AKGProjectOneView.xib */; };
+		5CDCB68D18FB4037003B8270 /* AKGProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDCB68C18FB4037003B8270 /* AKGProjectViewController.m */; };
+		5CDCB69118FB4C75003B8270 /* AKGProjectTwoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CDCB69018FB4C75003B8270 /* AKGProjectTwoView.xib */; };
+		5CEFC55018FC39CA00D87CCA /* AKGProjectFourView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEFC54F18FC39CA00D87CCA /* AKGProjectFourView.xib */; };
+		5CEFC55218FC4E9300D87CCA /* AKGStoryFive.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEFC55118FC4E9300D87CCA /* AKGStoryFive.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C15700318F4DF6000642638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C156FDB18F4DF6000642638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C156FE218F4DF6000642638;
+			remoteInfo = "Aaron Grider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C0AEDA018FB794A009643E7 /* AKGProjectThreeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGProjectThreeView.xib; sourceTree = "<group>"; };
+		5C0AEDE318FB8A65009643E7 /* AKGStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGStoryViewController.h; sourceTree = "<group>"; };
+		5C0AEDE418FB8A65009643E7 /* AKGStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGStoryViewController.m; sourceTree = "<group>"; };
+		5C0AEDE518FB8A65009643E7 /* AKGStoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryViewController.xib; sourceTree = "<group>"; };
+		5C0AEDED18FB9CF7009643E7 /* AKGStoryOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryOne.xib; sourceTree = "<group>"; };
+		5C0AEDEF18FBA272009643E7 /* AKGStoryTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryTwo.xib; sourceTree = "<group>"; };
+		5C0AEDF118FBA642009643E7 /* AKGStoryThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryThree.xib; sourceTree = "<group>"; };
+		5C0AEDF318FBA85D009643E7 /* AKGStoryFour.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryFour.xib; sourceTree = "<group>"; };
+		5C0AEDF518FBB149009643E7 /* AKGContactView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGContactView.xib; sourceTree = "<group>"; };
+		5C156FE318F4DF6000642638 /* Aaron Grider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aaron Grider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C156FE618F4DF6000642638 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C156FE818F4DF6000642638 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C156FEA18F4DF6000642638 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C156FEE18F4DF6000642638 /* Aaron Grider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aaron Grider-Info.plist"; sourceTree = "<group>"; };
+		5C156FF018F4DF6000642638 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C156FF218F4DF6000642638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C156FF418F4DF6000642638 /* Aaron Grider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aaron Grider-Prefix.pch"; sourceTree = "<group>"; };
+		5C156FF518F4DF6000642638 /* AKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKGAppDelegate.h; sourceTree = "<group>"; };
+		5C156FF618F4DF6000642638 /* AKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKGAppDelegate.m; sourceTree = "<group>"; };
+		5C156FF818F4DF6000642638 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C156FFE18F4DF6000642638 /* Aaron GriderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aaron GriderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C156FFF18F4DF6000642638 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5C15700718F4DF6000642638 /* Aaron GriderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aaron GriderTests-Info.plist"; sourceTree = "<group>"; };
+		5C15700918F4DF6000642638 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C15700B18F4DF6000642638 /* Aaron_GriderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aaron_GriderTests.m; sourceTree = "<group>"; };
+		5C15701518F4DF6B00642638 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5C15701718F4E00A00642638 /* AKGMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGMenuViewController.h; sourceTree = "<group>"; };
+		5C15701818F4E00A00642638 /* AKGMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGMenuViewController.m; sourceTree = "<group>"; };
+		5C15702018F4ED6B00642638 /* AKGMapPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGMapPageView.h; sourceTree = "<group>"; };
+		5C15702118F4ED6B00642638 /* AKGMapPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGMapPageView.m; sourceTree = "<group>"; };
+		5C15702318F4EFB900642638 /* AKGMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGMapAnnotation.h; sourceTree = "<group>"; };
+		5C15702418F4EFB900642638 /* AKGMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGMapAnnotation.m; sourceTree = "<group>"; };
+		5C15702618F4F6A600642638 /* AKGFeedPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGFeedPageView.h; sourceTree = "<group>"; };
+		5C15702718F4F6A600642638 /* AKGFeedPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGFeedPageView.m; sourceTree = "<group>"; };
+		5C26CF3218FB61A300D835AB /* AKGContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGContactViewController.h; sourceTree = "<group>"; };
+		5C26CF3318FB61A300D835AB /* AKGContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGContactViewController.m; sourceTree = "<group>"; };
+		5C359EE118F5118D006F80D8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5C359EE318F51197006F80D8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5C391E0A18F5A36D00E16B2F /* AKGProjectsPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGProjectsPageView.h; sourceTree = "<group>"; };
+		5C391E0B18F5A36D00E16B2F /* AKGProjectsPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGProjectsPageView.m; sourceTree = "<group>"; };
+		5CD28C5318F8EC8900CDB83A /* AKGFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGFeedTableViewController.h; sourceTree = "<group>"; };
+		5CD28C5418F8EC8900CDB83A /* AKGFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGFeedTableViewController.m; sourceTree = "<group>"; };
+		5CD28C5518F8EC8900CDB83A /* AKGFeedTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGFeedTableViewController.xib; sourceTree = "<group>"; };
+		5CD28C5818F8FAD800CDB83A /* AKGStoryPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGStoryPageView.h; sourceTree = "<group>"; };
+		5CD28C5918F8FAD800CDB83A /* AKGStoryPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGStoryPageView.m; sourceTree = "<group>"; };
+		5CD28C5B18F900CB00CDB83A /* AKGContactPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGContactPageView.h; sourceTree = "<group>"; };
+		5CD28C5C18F900CB00CDB83A /* AKGContactPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGContactPageView.m; sourceTree = "<group>"; };
+		5CD28C5E18F9028900CDB83A /* AKGPageViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKGPageViewDelegate.h; sourceTree = "<group>"; };
+		5CDCB68418FB2857003B8270 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5CDCB68918FB3D6D003B8270 /* AKGProjectOneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGProjectOneView.xib; sourceTree = "<group>"; };
+		5CDCB68B18FB4037003B8270 /* AKGProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKGProjectViewController.h; sourceTree = "<group>"; };
+		5CDCB68C18FB4037003B8270 /* AKGProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKGProjectViewController.m; sourceTree = "<group>"; };
+		5CDCB69018FB4C75003B8270 /* AKGProjectTwoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGProjectTwoView.xib; sourceTree = "<group>"; };
+		5CEFC54F18FC39CA00D87CCA /* AKGProjectFourView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGProjectFourView.xib; sourceTree = "<group>"; };
+		5CEFC55118FC4E9300D87CCA /* AKGStoryFive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKGStoryFive.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C156FE018F4DF6000642638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CDCB68518FB2857003B8270 /* MessageUI.framework in Frameworks */,
+				5C359EE418F51197006F80D8 /* Social.framework in Frameworks */,
+				5C359EE218F5118D006F80D8 /* Accounts.framework in Frameworks */,
+				5C156FE918F4DF6000642638 /* CoreGraphics.framework in Frameworks */,
+				5C156FEB18F4DF6000642638 /* UIKit.framework in Frameworks */,
+				5C15701618F4DF6B00642638 /* MapKit.framework in Frameworks */,
+				5C156FE718F4DF6000642638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C156FFB18F4DF6000642638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15700018F4DF6000642638 /* XCTest.framework in Frameworks */,
+				5C15700218F4DF6000642638 /* UIKit.framework in Frameworks */,
+				5C15700118F4DF6000642638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C156FDA18F4DF6000642638 = {
+			isa = PBXGroup;
+			children = (
+				5C156FEC18F4DF6000642638 /* Aaron Grider */,
+				5C15700518F4DF6000642638 /* Aaron GriderTests */,
+				5C156FE518F4DF6000642638 /* Frameworks */,
+				5C156FE418F4DF6000642638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C156FE418F4DF6000642638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C156FE318F4DF6000642638 /* Aaron Grider.app */,
+				5C156FFE18F4DF6000642638 /* Aaron GriderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C156FE518F4DF6000642638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CDCB68418FB2857003B8270 /* MessageUI.framework */,
+				5C359EE318F51197006F80D8 /* Social.framework */,
+				5C359EE118F5118D006F80D8 /* Accounts.framework */,
+				5C15701518F4DF6B00642638 /* MapKit.framework */,
+				5C156FE618F4DF6000642638 /* Foundation.framework */,
+				5C156FE818F4DF6000642638 /* CoreGraphics.framework */,
+				5C156FEA18F4DF6000642638 /* UIKit.framework */,
+				5C156FFF18F4DF6000642638 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C156FEC18F4DF6000642638 /* Aaron Grider */ = {
+			isa = PBXGroup;
+			children = (
+				5C156FF518F4DF6000642638 /* AKGAppDelegate.h */,
+				5C156FF618F4DF6000642638 /* AKGAppDelegate.m */,
+				5C156FF818F4DF6000642638 /* Images.xcassets */,
+				5C156FED18F4DF6000642638 /* Supporting Files */,
+				5C15701718F4E00A00642638 /* AKGMenuViewController.h */,
+				5C15701818F4E00A00642638 /* AKGMenuViewController.m */,
+				5CD28C5E18F9028900CDB83A /* AKGPageViewDelegate.h */,
+				5C15702018F4ED6B00642638 /* AKGMapPageView.h */,
+				5C15702118F4ED6B00642638 /* AKGMapPageView.m */,
+				5C15702318F4EFB900642638 /* AKGMapAnnotation.h */,
+				5C15702418F4EFB900642638 /* AKGMapAnnotation.m */,
+				5C15702618F4F6A600642638 /* AKGFeedPageView.h */,
+				5C15702718F4F6A600642638 /* AKGFeedPageView.m */,
+				5CD28C5318F8EC8900CDB83A /* AKGFeedTableViewController.h */,
+				5CD28C5418F8EC8900CDB83A /* AKGFeedTableViewController.m */,
+				5CD28C5518F8EC8900CDB83A /* AKGFeedTableViewController.xib */,
+				5C391E0A18F5A36D00E16B2F /* AKGProjectsPageView.h */,
+				5C391E0B18F5A36D00E16B2F /* AKGProjectsPageView.m */,
+				5CDCB68B18FB4037003B8270 /* AKGProjectViewController.h */,
+				5CDCB68C18FB4037003B8270 /* AKGProjectViewController.m */,
+				5CDCB68918FB3D6D003B8270 /* AKGProjectOneView.xib */,
+				5CDCB69018FB4C75003B8270 /* AKGProjectTwoView.xib */,
+				5C0AEDA018FB794A009643E7 /* AKGProjectThreeView.xib */,
+				5CEFC54F18FC39CA00D87CCA /* AKGProjectFourView.xib */,
+				5CD28C5818F8FAD800CDB83A /* AKGStoryPageView.h */,
+				5CD28C5918F8FAD800CDB83A /* AKGStoryPageView.m */,
+				5C0AEDE318FB8A65009643E7 /* AKGStoryViewController.h */,
+				5C0AEDE418FB8A65009643E7 /* AKGStoryViewController.m */,
+				5C0AEDE518FB8A65009643E7 /* AKGStoryViewController.xib */,
+				5C0AEDED18FB9CF7009643E7 /* AKGStoryOne.xib */,
+				5C0AEDEF18FBA272009643E7 /* AKGStoryTwo.xib */,
+				5C0AEDF118FBA642009643E7 /* AKGStoryThree.xib */,
+				5C0AEDF318FBA85D009643E7 /* AKGStoryFour.xib */,
+				5CEFC55118FC4E9300D87CCA /* AKGStoryFive.xib */,
+				5CD28C5B18F900CB00CDB83A /* AKGContactPageView.h */,
+				5CD28C5C18F900CB00CDB83A /* AKGContactPageView.m */,
+				5C26CF3218FB61A300D835AB /* AKGContactViewController.h */,
+				5C26CF3318FB61A300D835AB /* AKGContactViewController.m */,
+				5C0AEDF518FBB149009643E7 /* AKGContactView.xib */,
+			);
+			path = "Aaron Grider";
+			sourceTree = "<group>";
+		};
+		5C156FED18F4DF6000642638 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C156FEE18F4DF6000642638 /* Aaron Grider-Info.plist */,
+				5C156FEF18F4DF6000642638 /* InfoPlist.strings */,
+				5C156FF218F4DF6000642638 /* main.m */,
+				5C156FF418F4DF6000642638 /* Aaron Grider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C15700518F4DF6000642638 /* Aaron GriderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C15700B18F4DF6000642638 /* Aaron_GriderTests.m */,
+				5C15700618F4DF6000642638 /* Supporting Files */,
+			);
+			path = "Aaron GriderTests";
+			sourceTree = "<group>";
+		};
+		5C15700618F4DF6000642638 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C15700718F4DF6000642638 /* Aaron GriderTests-Info.plist */,
+				5C15700818F4DF6000642638 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C156FE218F4DF6000642638 /* Aaron Grider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15700F18F4DF6000642638 /* Build configuration list for PBXNativeTarget "Aaron Grider" */;
+			buildPhases = (
+				5C156FDF18F4DF6000642638 /* Sources */,
+				5C156FE018F4DF6000642638 /* Frameworks */,
+				5C156FE118F4DF6000642638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aaron Grider";
+			productName = "Aaron Grider";
+			productReference = 5C156FE318F4DF6000642638 /* Aaron Grider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C156FFD18F4DF6000642638 /* Aaron GriderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15701218F4DF6000642638 /* Build configuration list for PBXNativeTarget "Aaron GriderTests" */;
+			buildPhases = (
+				5C156FFA18F4DF6000642638 /* Sources */,
+				5C156FFB18F4DF6000642638 /* Frameworks */,
+				5C156FFC18F4DF6000642638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C15700418F4DF6000642638 /* PBXTargetDependency */,
+			);
+			name = "Aaron GriderTests";
+			productName = "Aaron GriderTests";
+			productReference = 5C156FFE18F4DF6000642638 /* Aaron GriderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C156FDB18F4DF6000642638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AKG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aaron Grider";
+				TargetAttributes = {
+					5C156FE218F4DF6000642638 = {
+						DevelopmentTeam = A62L5AV4U6;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5C156FFD18F4DF6000642638 = {
+						TestTargetID = 5C156FE218F4DF6000642638;
+					};
+				};
+			};
+			buildConfigurationList = 5C156FDE18F4DF6000642638 /* Build configuration list for PBXProject "Aaron Grider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C156FDA18F4DF6000642638;
+			productRefGroup = 5C156FE418F4DF6000642638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C156FE218F4DF6000642638 /* Aaron Grider */,
+				5C156FFD18F4DF6000642638 /* Aaron GriderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C156FE118F4DF6000642638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0AEDF418FBA85D009643E7 /* AKGStoryFour.xib in Resources */,
+				5C0AEDF218FBA642009643E7 /* AKGStoryThree.xib in Resources */,
+				5CDCB69118FB4C75003B8270 /* AKGProjectTwoView.xib in Resources */,
+				5CEFC55218FC4E9300D87CCA /* AKGStoryFive.xib in Resources */,
+				5CDCB68A18FB3D6D003B8270 /* AKGProjectOneView.xib in Resources */,
+				5C0AEDA118FB794A009643E7 /* AKGProjectThreeView.xib in Resources */,
+				5C0AEDF018FBA272009643E7 /* AKGStoryTwo.xib in Resources */,
+				5C156FF118F4DF6000642638 /* InfoPlist.strings in Resources */,
+				5C156FF918F4DF6000642638 /* Images.xcassets in Resources */,
+				5C0AEDEA18FB8A65009643E7 /* AKGStoryViewController.xib in Resources */,
+				5C0AEDF618FBB149009643E7 /* AKGContactView.xib in Resources */,
+				5C0AEDEE18FB9CF7009643E7 /* AKGStoryOne.xib in Resources */,
+				5CEFC55018FC39CA00D87CCA /* AKGProjectFourView.xib in Resources */,
+				5CD28C5718F8EC8900CDB83A /* AKGFeedTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C156FFC18F4DF6000642638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15700A18F4DF6000642638 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C156FDF18F4DF6000642638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0AEDE918FB8A65009643E7 /* AKGStoryViewController.m in Sources */,
+				5C26CF3418FB61A300D835AB /* AKGContactViewController.m in Sources */,
+				5CD28C5D18F900CB00CDB83A /* AKGContactPageView.m in Sources */,
+				5C391E0C18F5A36D00E16B2F /* AKGProjectsPageView.m in Sources */,
+				5C15702218F4ED6B00642638 /* AKGMapPageView.m in Sources */,
+				5CD28C5618F8EC8900CDB83A /* AKGFeedTableViewController.m in Sources */,
+				5CDCB68D18FB4037003B8270 /* AKGProjectViewController.m in Sources */,
+				5CD28C5A18F8FAD800CDB83A /* AKGStoryPageView.m in Sources */,
+				5C15701918F4E00A00642638 /* AKGMenuViewController.m in Sources */,
+				5C156FF718F4DF6000642638 /* AKGAppDelegate.m in Sources */,
+				5C15702818F4F6A600642638 /* AKGFeedPageView.m in Sources */,
+				5C15702518F4EFB900642638 /* AKGMapAnnotation.m in Sources */,
+				5C156FF318F4DF6000642638 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C156FFA18F4DF6000642638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C15700C18F4DF6000642638 /* Aaron_GriderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C15700418F4DF6000642638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C156FE218F4DF6000642638 /* Aaron Grider */;
+			targetProxy = 5C15700318F4DF6000642638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C156FEF18F4DF6000642638 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C156FF018F4DF6000642638 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C15700818F4DF6000642638 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C15700918F4DF6000642638 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C15700D18F4DF6000642638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C15700E18F4DF6000642638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C15701018F4DF6000642638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aaron Grider/Aaron Grider-Prefix.pch";
+				INFOPLIST_FILE = "Aaron Grider/Aaron Grider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C15701118F4DF6000642638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aaron Grider/Aaron Grider-Prefix.pch";
+				INFOPLIST_FILE = "Aaron Grider/Aaron Grider-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5C15701318F4DF6000642638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aaron Grider.app/Aaron Grider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aaron Grider/Aaron Grider-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aaron GriderTests/Aaron GriderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5C15701418F4DF6000642638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aaron Grider.app/Aaron Grider";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aaron Grider/Aaron Grider-Prefix.pch";
+				INFOPLIST_FILE = "Aaron GriderTests/Aaron GriderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C156FDE18F4DF6000642638 /* Build configuration list for PBXProject "Aaron Grider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15700D18F4DF6000642638 /* Debug */,
+				5C15700E18F4DF6000642638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C15700F18F4DF6000642638 /* Build configuration list for PBXNativeTarget "Aaron Grider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15701018F4DF6000642638 /* Debug */,
+				5C15701118F4DF6000642638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C15701218F4DF6000642638 /* Build configuration list for PBXNativeTarget "Aaron GriderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C15701318F4DF6000642638 /* Debug */,
+				5C15701418F4DF6000642638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C156FDB18F4DF6000642638 /* Project object */;
+}
